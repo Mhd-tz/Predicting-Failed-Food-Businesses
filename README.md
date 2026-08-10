@@ -4,76 +4,62 @@ IAT 461 final project, Summer 2026
 Student: Mahdi Taziki (301373483)  
 Client: Jason Salonga, Greater Vancouver Food Bank
 
-The goal of this project is to predict which Vancouver food businesses are more likely to fail. The
-Greater Vancouver Food Bank could use the results to decide which businesses may need support. The
-planned final output is a list of businesses ranked by predicted risk.
+The goal of this project is to predict which Vancouver food businesses are more likely to fail, so the
+Greater Vancouver Food Bank can decide which businesses may need support. The planned final output is a
+list ranked by predicted risk.
 
-## Current progress
+## Status
 
-The exploratory data analysis is finished. The notebook contains the code, figures, and findings, and
-the progress report is included both inside it and as a separate file:
+This is the August 9 checkpoint submission.
 
-- [EDA notebook](notebooks/01_EDA.ipynb), with the progress report as Section 12
-- [Progress report](PROGRESS_REPORT.md)
+- [`notebooks/01_EDA.ipynb`](notebooks/01_EDA.ipynb) is finished. It covers data quality, the target
+  variable, a data leakage check, and the feature plan, with its progress report as Section 12.
+- [`notebooks/02_Modeling.ipynb`](notebooks/02_Modeling.ipynb) is a **draft**. The code runs and the
+  outputs are saved, but the models have not been tuned and several conclusions still need checking.
+  Section 9 lists what is left to do before the final delivery on August 11.
+- [`DRAFT_NOTEBOOK_AUG_09.md`](DRAFT_NOTEBOOK_AUG_09.md) describes what changed since the EDA.
 
-The main findings so far are:
+## Draft results so far
 
-- The dataset has 221 rows and 12 original columns.
-- The definition of a failed business has a large effect on the class balance. The original definition
-  gives 20 failed businesses, while the broader definition gives 53.
-- Missing values in `issueddate` and `expireddate` are closely connected to business status. These
-  columns could leak the answer to a model, so I will not use them as predictors.
-- Two licence numbers appear more than once. I plan to keep the latest record for each licence before
-  modelling.
-- Business type appears to be the most useful predictor in the current dataset. Neighbourhood and
-  number of employees may also be useful, but none of the relationships are very strong by themselves.
+I compared logistic regression and a random forest against two baselines with 5-fold cross-validation
+repeated 10 times, using Average Precision (AP) instead of accuracy because the output is a ranked list
+and only 23.3% of the businesses have a failure status. Logistic regression averaged an AP of 0.375 and
+the random forest 0.385, against 0.233 for a ranking in random order. The two averages are close, and
+this analysis does not show that one model is better than the other.
+
+The main limitations: 219 rows and 51 positives after cleaning, an unconfirmed label definition, a
+ranking analysis based on one out-of-fold split, and no tuning yet.
 
 ## Dataset
 
-The data comes from the City of Vancouver Business Licences open dataset. The working file contains
-food-related businesses such as restaurants, food retailers, wholesalers, markets, and manufacturers.
-The filtered CSV is included in this repository. The larger raw City of Vancouver export is not
-included.
-
-`make_foodbank_dataset.py` is the script that produced the filtered file. It reads the raw city export
-and keeps only the food business types. Because the raw export is not in this repository, the script
-is included as a record of how the working file was created rather than as a step you need to run.
+The data comes from the City of Vancouver Business Licences open dataset and covers food-related
+businesses such as restaurants, food retailers, wholesalers, markets, and manufacturers. The filtered
+CSV is in this repository; the larger raw city export is not. `make_foodbank_dataset.py` is the script
+that produced the filtered file, kept here as a record of how it was made rather than as a step you
+need to run.
 
 ## Files
 
 ```
-notebooks/01_EDA.ipynb                 exploratory analysis and progress report
-figures/                               figures saved by the notebook
+notebooks/01_EDA.ipynb                 exploratory analysis and EDA progress report
+notebooks/02_Modeling.ipynb            modelling draft
+figures/                               figures saved by the notebooks
 vancouver_food_businesses_sample.csv   the working dataset, 221 rows and 12 columns
 make_foodbank_dataset.py               script used to filter the raw city export
-PROGRESS_REPORT.md                     progress report on its own
+DRAFT_NOTEBOOK_AUG_09.md               August 9 draft progress report
 Phase1_ClientProposal.pdf              client proposal
 Phase2_ClientProposal.pdf              client and data scientist agreement
 ```
 
-## Running the notebook
+## Running the notebooks
 
 ```bash
 pip install -r requirements.txt
-jupyter lab notebooks/01_EDA.ipynb
+cd notebooks
+jupyter lab
 ```
 
-Then use Kernel > Restart Kernel and Run All Cells. File paths are worked out from the repository
-root, so the notebook runs whether it is started from the root folder or from `notebooks/`. The random
-seed is fixed at 461.
-
-## Next steps
-
-I will confirm the label definition with the client, write the cleaning and deduplication steps, and
-build a baseline classification model to compare against a random forest. Evaluation will use
-precision near the top of the ranked list, recall, and PR-AUC rather than accuracy alone.
-
-Three questions are still open with the client:
-
-1. Should a `Pending` status count as a failed business? It may only mean the city has not finished
-   processing the application. My current recommendation is to leave these records out of training
-   until this is confirmed.
-2. How was the 63% baseline in the Phase 2 agreement calculated? Predicting the majority class gives
-   91% with the narrow label and 76% with the broader one.
-3. How many businesses can the coordinator contact each week? This number decides where the cutoff on
-   the ranked list should be.
+Both notebooks are written to be run from the `notebooks` folder. They read
+`../vancouver_food_businesses_sample.csv` and save figures to `../figures/`. Open a notebook and use
+Kernel > Restart Kernel and Run All Cells. The modelling notebook takes a couple of minutes because of
+the repeated cross-validation, and its random seed is set to 461.
