@@ -17,7 +17,7 @@ The dataset is a filtered sample of the City of Vancouver Business Licences open
 12 columns. Three findings shaped the modelling. Missing values in `issueddate` and `expireddate`
 almost exactly identify `Pending` and `Cancelled` records, so those columns would leak the answer and I
 dropped them. Two licence numbers appear twice with different statuses, so I keep only the most recent
-record for each. And the label definition matters: the narrow definition (`Cancelled`,
+record for each. And the label definition matters because the narrow definition (`Cancelled`,
 `Gone Out of Business`) gives 20 failures, while the wide one, which also counts `Pending` and
 `Inactive`, gives 53. The features I carried forward are business type, neighbourhood, and number of
 employees.
@@ -71,7 +71,7 @@ so the sample is much too small to conclude anything about those groups.
 
 The dataset has 219 rows and 51 positives, so all of these numbers carry a lot of uncertainty. The label
 definition is not settled, the ranking analysis rests on one out-of-fold split, two of the status groups
-are tiny, and neither model has been tuned. The model is also cross-sectional: it learns which kinds of
+are tiny, and neither model has been tuned. The model is also cross-sectional cause it learns which kinds of
 businesses currently have failure statuses, not what happens to a business over time.
 
 ## Remaining work before August 11

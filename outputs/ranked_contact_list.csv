@@ -1,0 +1,169 @@
+rank,contact_week,risk_band,licencenumber,businessname,businesstype,localarea,numberofemployees,risk_score
+1,1,high,24-239342,BELLA GELATERIA GLOBAL INC.,Restaurant,Downtown,8.0,0.781
+2,1,high,24-251784,TGI FOODS CORP.,Retail Dealer - Food,Downtown,3.0,0.771
+3,1,high,24-267018,1485877 BC Ltd,Retail Dealer - Food,Downtown,4.0,0.759
+4,1,high,24-130232,The Nut Merchant Ltd,Food Manufacturer Assembler and Processor,Sunset,2.0,0.715
+5,1,high,24-243829,1158456 B.C. LTD.,Retail Dealer - Food,Sunset,2.0,0.703
+6,1,high,24-259029,(Sharleen Khurana),Retail Dealer - Food,Sunset,1.0,0.661
+7,1,high,24-243303,MUME TEA & WARE LTD.,Retail Dealer - Food,Mount Pleasant,2.0,0.621
+8,1,high,24-186839,1399737 B.C. LTD.,Restaurant,Downtown,15.0,0.62
+9,1,high,24-148035,Simon Fraser University,Restaurant,Downtown,10.0,0.613
+10,1,high,24-148666,K & OH Holdings Ltd,Restaurant,Downtown,10.0,0.613
+11,2,high,24-232669,1321643 B.C. LTD.,Limited Service Food Establishment,Renfrew-Collingwood,3.0,0.591
+12,2,high,24-229243,ROTI WALA FACTORY LTD.,Limited Service Food Establishment,Renfrew-Collingwood,3.0,0.591
+13,2,high,24-228766,3377 Bubble Tea House Ltd,Limited Service Food Establishment,Renfrew-Collingwood,3.0,0.591
+14,2,high,24-160653,OHM JONG RUAY MEAL INC.,Food Manufacturer Assembler and Processor,Grandview-Woodland,4.0,0.588
+15,2,high,24-251798,1485116 B.C. LTD.,Retail Dealer - Food,Kensington-Cedar Cottage,2.0,0.585
+16,2,high,24-243817,MODERN PEROGIE PEROGIES LTD.,Food Manufacturer Assembler and Processor,Grandview-Woodland,2.0,0.582
+17,2,high,24-149257,H&M Top Notch Food Services And Catering Ltd,Restaurant,West End,6.0,0.569
+18,2,high,24-243404,BLEND BISTRO CORP.,Restaurant,Mount Pleasant,8.0,0.56
+19,2,high,24-229762,FuQiao Food Ltd,Limited Service Food Establishment,Kitsilano,0.0,0.557
+20,2,high,24-216754,1443442 B.C. LTD.,Restaurant,West End,15.0,0.54
+21,3,high,24-149504,Sushi Bar Maumi Inc,Restaurant,West End,2.0,0.537
+22,3,high,24-148978,Cross The Road Restaurants Ltd,Restaurant,Downtown,30.0,0.534
+23,3,high,24-149033,Academic Public House Enterprises Ltd,Restaurant,Downtown,30.0,0.534
+24,3,high,24-252724,8 Corners Canada Inc.,Limited Service Food Establishment,Downtown,3.0,0.531
+25,3,high,24-261924,(Shawn Ryan),Food Manufacturer Assembler and Processor,Grandview-Woodland,1.0,0.529
+26,3,high,24-292754,LA PORTE DE L'ESPOIR PASTRY LTD.,Food Manufacturer Assembler and Processor,Grandview-Woodland,1.0,0.529
+27,3,high,24-264689,LUMIERE COFFEE NO.2 LTD.,Limited Service Food Establishment,Kitsilano,10.0,0.52
+28,3,high,24-290706,CAFFE ARTIGIANO INC,Restaurant,Mount Pleasant,10.0,0.519
+29,3,high,24-148601,Kosoo Restaurant Ltd,Restaurant,West End,13.0,0.514
+30,3,high,24-148368,Stock Room Enterprises Ltd,Restaurant,Downtown,25.0,0.513
+31,4,medium,24-270508,1422508 B.C. LTD.,Retail Dealer - Food,South Cambie,3.0,0.512
+32,4,medium,24-250929,ATHLETIC FUEL INC.,Retail Dealer - Food,Grandview-Woodland,1.0,0.512
+33,4,medium,24-275484,(Evelina Edwardsson),Food Manufacturer Assembler and Processor,Kensington-Cedar Cottage,1.0,0.507
+34,4,medium,24-252781,1477948 B.C. LTD.,Retail Dealer - Food,Marpole,4.0,0.506
+35,4,medium,24-149453,Marutama Food Services Ltd,Restaurant,Fairview,16.0,0.504
+36,4,medium,24-224088,YF Istanbul Restaurant Ltd,Restaurant,Hastings-Sunrise,10.0,0.501
+37,4,medium,24-149392,Keto Caveman Cafe Ltd,Restaurant,Downtown,4.0,0.5
+38,4,medium,24-245832,617594 BC Ltd,Restaurant,Downtown,4.0,0.5
+39,4,medium,24-252833,PHO QUYNH VIETNAMESE NOODLE HOUSE LTD.,Restaurant,Downtown,4.0,0.5
+40,4,medium,24-243744,1478594 BC LTD,Restaurant,Downtown,0.0,0.493
+41,5,medium,24-148333,Goodwell Enterprises Ltd,Restaurant,Kensington-Cedar Cottage,10.0,0.487
+42,5,medium,25-245429,15697484 CANADA INC.,Limited Service Food Establishment,Grandview-Woodland,5.0,0.487
+43,5,medium,24-293850,Your Local Farmers Market Society,Food Market,Kitsilano,0.0,0.484
+44,5,medium,24-275094,VAPE SPOT SMOKES INC.,Retail Dealer - Food,Marpole,2.0,0.481
+45,5,medium,24-246757,ET HUNG TRADING INC.,Retail Dealer - Food,Marpole,2.0,0.481
+46,5,medium,24-224472,Simone Rasmussen & Luba Reichert,Retail Dealer - Food,Marpole,2.0,0.481
+47,5,medium,24-277801,Moltaqa Restaurant Corp,Restaurant,Downtown,1.0,0.476
+48,5,medium,24-253246,MULTIFLORA ROSE CAFE & RESTAURANT CORP,Restaurant,Kensington-Cedar Cottage,11.0,0.467
+49,5,medium,24-228696,1474762 B.C. LTD.,Limited Service Food Establishment,Downtown,5.0,0.467
+50,5,medium,24-235742,SUREN KITS BAR & GRILL INC.,Restaurant,Kitsilano,15.0,0.466
+51,6,medium,24-244133,1463394 B.C. LTD.,Limited Service Food Establishment,Downtown,8.0,0.452
+52,6,medium,24-149250,1220792 BC Ltd,Restaurant,Arbutus-Ridge,20.0,0.449
+53,6,medium,24-207518,MEHMI ENTERPRISES Ltd,Restaurant,Kitsilano,7.0,0.444
+54,6,medium,24-270513,MR. RED CAFE INC.,Restaurant,Kitsilano,6.0,0.437
+55,6,medium,25-278222,SUSHI HIL CATERING INC.,Limited Service Food Establishment,Kensington-Cedar Cottage,2.0,0.437
+56,6,medium,24-147925,Pizza Carano Restaurant Corp,Restaurant,Riley Park,8.0,0.422
+57,6,medium,24-129240,1186019 BC Ltd,Limited Service Food Establishment,Hastings-Sunrise,5.0,0.422
+58,6,medium,24-266720,YUKI&KIM FOODS LTD.,Limited Service Food Establishment,Killarney,2.0,0.416
+59,6,medium,24-148171,Parnon Restaurant Ltd,Restaurant,Kitsilano,10.0,0.415
+60,6,medium,24-253240,WINNOTEL CONSULTING & COMMERCIAL SERVICES LTD,Limited Service Food Establishment,Grandview-Woodland,6.0,0.412
+61,7,medium,24-149461,Chancho Enterprises Ltd,Restaurant,Grandview-Woodland,20.0,0.411
+62,7,medium,24-251342,BROWNIE BLONDIE BAKERY INC.,Food Manufacturer Assembler and Processor,Strathcona,2.0,0.411
+63,7,medium,24-269884,36T FOODS LTD.,Food Manufacturer Assembler and Processor,Strathcona,2.0,0.411
+64,7,medium,24-252840,SR.PAPA-SALCHIPAPAS FOODS LTD.,Food Manufacturer Assembler and Processor,Strathcona,1.0,0.409
+65,7,medium,24-269791,(Shayna Anahi Nunez Alvarez),Food Manufacturer Assembler and Processor,Strathcona,1.0,0.409
+66,7,medium,24-229706,Kits Beach Coffee Inc,Restaurant,Kitsilano,12.0,0.405
+67,7,medium,24-148468,Tractor Everyday Healthy Foods Ltd,Restaurant,Kitsilano,12.0,0.405
+68,7,medium,24-148157,581787 BC Ltd,Restaurant,Grandview-Woodland,25.0,0.402
+69,7,medium,24-229167,OLIVIER'S LA BOULANGERIE (003) LTD.,Restaurant,Riley Park,6.0,0.401
+70,7,medium,24-285416,NAPOLETANA PIZZA LTD.,Restaurant,Riley Park,6.0,0.401
+71,8,low,24-154011,H & G Tan Enterprises Inc,Wholesale Dealer - Food,Marpole,2.0,0.4
+72,8,low,24-201154,(Pablo Gonzalez),Wholesale Dealer - Food,Marpole,2.0,0.4
+73,8,low,24-231279,Sultan Enterprises Inc,Limited Service Food Establishment,West End,5.0,0.396
+74,8,low,24-253596,MCMASTER GROUP HOLDINGS INC.,Limited Service Food Establishment,Marpole,4.0,0.395
+75,8,low,24-236273,NGUYEN & PHAM ENTERPRISES INC.,Limited Service Food Establishment,Downtown,6.0,0.394
+76,8,low,24-226064,1420636 BC Ltd,Limited Service Food Establishment,Downtown,6.0,0.394
+77,8,low,24-179168,YYDS FOOD SERVICE LTD.,Restaurant,Marpole,4.0,0.392
+78,8,low,24-275783,1494267 BC Ltd,Limited Service Food Establishment,West End,2.0,0.388
+79,8,low,24-241558,1468433 BC Ltd,Limited Service Food Establishment,Killarney,0.0,0.385
+80,8,low,24-229382,Jin Wei House Restaurant Ltd,Limited Service Food Establishment,Arbutus-Ridge,0.0,0.385
+81,9,low,24-290687,Hane Foods Ltd,Limited Service Food Establishment,Riley Park,4.0,0.379
+82,9,low,24-129683,SHINE TREE TRADING LTD,Limited Service Food Establishment,Riley Park,5.0,0.379
+83,9,low,24-149483,CHICKEN BOX SOUTH MAIN LTD,Restaurant,Riley Park,12.0,0.378
+84,9,low,24-266681,THE HARD BEAN BRUNCH CO. WATERFRONT INC.,Restaurant,Downtown,50.0,0.369
+85,9,low,24-229698,1478952 BC LTD,Limited Service Food Establishment,West End,0.0,0.368
+86,9,low,24-149558,Ahluwalia Hospitality Coal Harbor Ltd,Restaurant,Downtown,80.0,0.367
+87,9,low,24-148583,Tacofino Gastown Inc,Restaurant,Downtown,80.0,0.367
+88,9,low,24-148236,0768638 BC Ltd,Restaurant,Arbutus-Ridge,7.0,0.363
+89,9,low,24-148290,New Chongqing Food and Beverage Ltd,Restaurant,Kerrisdale,7.0,0.363
+90,9,low,24-223254,A Bosa & Co Ltd,Retail Dealer - Food,Hastings-Sunrise,89.0,0.357
+91,10,low,24-201139,1427462 BC Ltd,Restaurant,West End,38.0,0.355
+92,10,low,24-287948,Barakat Halal Meat & Grocery Corporation,Limited Service Food Establishment,Hastings-Sunrise,6.0,0.346
+93,10,low,24-232284,KOREAN SPARKY CHICKEN LTD.,Limited Service Food Establishment,Kensington-Cedar Cottage,6.0,0.342
+94,10,low,24-235255,VEGAS DONUTS LTD.,Limited Service Food Establishment,West End,1.0,0.34
+95,10,low,24-246752,HUMMINGBIRD & BEAN CAFE CORPORATION,Limited Service Food Establishment,South Cambie,4.0,0.321
+96,10,low,24-149403,Yam Yam Foods Ltd,Restaurant,West Point Grey,6.0,0.314
+97,10,low,24-243754,1476638 BC Ltd,Restaurant,Riley Park,25.0,0.306
+98,10,low,24-148484,Akaike Enterprises Ltd,Restaurant,West Point Grey,3.0,0.298
+99,10,low,24-149198,Addah Inc,Restaurant,Strathcona,3.0,0.295
+100,10,low,24-129111,TopGain Catering Ltd,Limited Service Food Establishment,Kerrisdale,10.0,0.285
+101,11,low,24-148644,Vij's Lantern Inc,Restaurant,Mount Pleasant,50.0,0.277
+102,11,low,24-273652,Korean Kim's Chicken Restaurant Ltd,Restaurant,West Point Grey,4.0,0.272
+103,11,low,24-238111,Vancouver Sushi Inc,Restaurant,Fairview,4.0,0.272
+104,11,low,24-149188,Canwell Enterprises Ltd,Restaurant,South Cambie,4.0,0.272
+105,11,low,24-251463,Cactus Cafe English Bay Ltd,Restaurant,West End,100.0,0.271
+106,11,low,24-153988,(Ruth Huberman),Wholesale Dealer - Food,Oakridge,1.0,0.27
+107,11,low,24-189709,Jordi Pamblanco Esteve (Jordi Esteve),Wholesale Dealer - Food,South Cambie,1.0,0.27
+108,11,low,24-256876,(Zhicheng Xu),Wholesale Dealer - Food,South Cambie,1.0,0.27
+109,11,low,24-153995,Newstar Enterprises International Ltd,Wholesale Dealer - Food,Marpole,3.0,0.265
+110,11,low,24-148273,0794479 BC Ltd,Restaurant,Marpole,45.0,0.263
+111,12,low,24-149177,Meo Restaurant & Bar Inc,Restaurant,Strathcona,20.0,0.252
+112,12,low,24-275175,ANMOL BRAR RESTAURANTS LTD.,Limited Service Food Establishment,Fairview,6.0,0.224
+113,12,low,24-241495,GOOD BOY JASPER GROUP INC.,Limited Service Food Establishment,South Cambie,6.0,0.224
+114,12,low,24-235558,1457874 BC Ltd,Limited Service Food Establishment,South Cambie,6.0,0.224
+115,12,low,24-154012,North-West Seafood Ltd,Wholesale Dealer - Food,Marpole,5.0,0.221
+116,12,low,24-288013,CARGO SOLUTIONS LIMITED,Wholesale Dealer - Food,Sunset,1.0,0.211
+117,12,low,24-153996,Nikka Traders Inc,Wholesale Dealer - Food,Marpole,8.0,0.203
+118,12,low,24-286153,Marquess Coffee Ltd.,Wholesale Dealer - Food,West End,1.0,0.194
+119,12,low,24-154046,Smartbite Snacks Inc,Wholesale Dealer - Food,Mount Pleasant,2.0,0.188
+120,12,low,24-154111,Waterman's Online Club INC,Wholesale Dealer - Food,Renfrew-Collingwood,2.0,0.187
+121,13,low,24-154112,Asiana Trading Ltd,Wholesale Dealer - Food,Downtown,2.0,0.182
+122,13,low,24-154090,AFIC Exim (Canada) Corp,Wholesale Dealer - Food,Downtown,2.0,0.182
+123,13,low,24-154024,CMR Trading BC Ltd,Wholesale Dealer - Food,Renfrew-Collingwood,1.0,0.181
+124,13,low,24-153971,Qi Botanical Tea (Canada) Ltd,Wholesale Dealer - Food,Marpole,15.0,0.179
+125,13,low,24-153972,Kitskitchen Health Foods Inc,Wholesale Dealer - Food,Mount Pleasant,1.0,0.177
+126,13,low,24-154070,Kenwest Produce Ltd,Wholesale Dealer - Food,Downtown,1.0,0.168
+127,13,low,24-154074,Exotic Orchard Produce Ltd,Wholesale Dealer - Food,Grandview-Woodland,0.0,0.159
+128,13,low,24-252728,EAST VANCOUVER INTERNATIONAL TRADING CO. LIMITED,Wholesale Dealer - Food,Hastings-Sunrise,1.0,0.159
+129,13,low,24-262402,(Echlin Wright),Wholesale Dealer - Food,Kensington-Cedar Cottage,1.0,0.156
+130,13,low,24-154052,Naked Coconuts Inc,Wholesale Dealer - Food,Kensington-Cedar Cottage,1.0,0.156
+131,14,low,24-154068,Young Quach Asian Foods Ltd,Wholesale Dealer - Food,Sunset,8.0,0.148
+132,14,low,24-154129,Healthy Hippo Naturals Inc,Wholesale Dealer - Food,West End,3.0,0.146
+133,14,low,24-154080,Domenica Fiore Corporation,Wholesale Dealer - Food,Downtown,3.0,0.141
+134,14,low,24-154085,Coldfish Seafoods Company Inc,Wholesale Dealer - Food,Victoria-Fraserview,11.0,0.139
+135,14,low,24-154045,Super Harvest Trading Ltd,Wholesale Dealer - Food,Renfrew-Collingwood,3.0,0.134
+136,14,low,24-161010,TallGrass Natural Health Ltd,Wholesale Dealer - Food,Fairview,35.0,0.131
+137,14,low,24-154005,Glico Canada Corp,Wholesale Dealer - Food,Downtown,6.0,0.129
+138,14,low,24-154036,Organic Ocean Seafood Inc,Wholesale Dealer - Food,Kitsilano,17.0,0.123
+139,14,low,24-154093,Lyft Commodity Trading Ltd,Wholesale Dealer - Food,Downtown,16.0,0.122
+140,14,low,24-153986,Yick Sun Trading (Vancouver) Co Ltd,Wholesale Dealer - Food,Sunset,10.0,0.121
+141,15,low,24-154055,New World Imports Ltd,Wholesale Dealer - Food,Sunset,18.0,0.112
+142,15,low,24-154133,Ultimate Cup of Coffee Ltd,Wholesale Dealer - Food,Hastings-Sunrise,4.0,0.108
+143,15,low,24-154030,Acme Import & Export Ltd,Wholesale Dealer - Food,Kerrisdale,1955.0,0.106
+144,15,low,24-153974,Waterman's Marketing Inc,Wholesale Dealer - Food,Renfrew-Collingwood,10.0,0.099
+145,15,low,24-153980,Tak-Fung Trading Inc,Wholesale Dealer - Food,Strathcona,2.0,0.099
+146,15,low,24-185954,Lekiu Distributors Ltd,Wholesale Dealer - Food,Sunset,30.0,0.096
+147,15,low,24-154009,Chung Hing Co Ltd,Wholesale Dealer - Food,Sunset,20.0,0.093
+148,15,low,24-153987,(Franca Berardi),Wholesale Dealer - Food,Grandview-Woodland,16.0,0.085
+149,15,low,24-154003,Winken Trading Corp,Wholesale Dealer - Food,Grandview-Woodland,10.0,0.082
+150,15,low,24-154010,Kim Chau Delicatessen Ltd,Wholesale Dealer - Food,Kensington-Cedar Cottage,19.0,0.066
+151,16,low,24-154048,Westport Distribution Inc,Wholesale Dealer - Food,Grandview-Woodland,20.0,0.059
+152,16,low,24-153990,JJ Bean Inc,Wholesale Dealer - Food,Grandview-Woodland,25.0,0.058
+153,16,low,24-154228,A Bosa & Co Ltd,Wholesale Dealer - Food,Hastings-Sunrise,89.0,0.056
+154,16,low,24-154038,Waisee Trading Co Ltd,Wholesale Dealer - Food,Strathcona,8.0,0.053
+155,16,low,24-153982,Benny Foods Ltd,Wholesale Dealer - Food,Strathcona,4.0,0.051
+156,16,low,24-154013,Pacin Enterprises Inc,Wholesale Dealer - Food,Strathcona,9.0,0.05
+157,16,low,24-154008,Hallmark Poultry Processors Ltd,Wholesale Dealer - Food,Grandview-Woodland,500.0,0.049
+158,16,low,24-154115,1061563 BC Ltd,Wholesale Dealer - Food,Strathcona,15.0,0.04
+159,16,low,24-153993,Macdonald Poultry & Meat Supplies Ltd,Wholesale Dealer - Food,Strathcona,10.0,0.037
+160,16,low,24-154004,Yamato Trading Co Ltd,Wholesale Dealer - Food,Strathcona,11.0,0.036
+161,17,low,24-153991,Jim M Koo Produce Ltd,Wholesale Dealer - Food,Strathcona,35.0,0.034
+162,17,low,24-154022,Double Happiness Foods (2007) Ltd,Wholesale Dealer - Food,Strathcona,30.0,0.031
+163,17,low,24-153983,Can-Am Produce & Trading Ltd,Wholesale Dealer - Food,Strathcona,27.0,0.029
+164,17,low,24-153977,607920 BC Ltd,Wholesale Dealer - Food,Strathcona,50.0,0.025
+165,17,low,24-154042,Sysco Fine Meats Vancouver Inc,Wholesale Dealer - Food,Strathcona,60.0,0.025
+166,17,low,24-154000,Terminal Fruit & Produce Ltd,Wholesale Dealer - Food,Strathcona,95.0,0.025
+167,17,low,24-154031,Fresh Direct Produce Ltd,Wholesale Dealer - Food,Strathcona,100.0,0.025
+168,17,low,24-153985,480412 B C Ltd,Wholesale Dealer - Food,Strathcona,85.0,0.025
