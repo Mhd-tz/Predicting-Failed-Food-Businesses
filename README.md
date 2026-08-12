@@ -10,11 +10,10 @@ licence, ordered by how similar they are to records in the failure group.
 
 ## Submission links
 
+- **Recorded presentation:** [watch the video](https://vault.sfu.ca/index.php/s/dHyXreFSdrXPcir)
 - **Streamlit app:** [link](https://predicting-failed-food-businesses-a2pmx3bnzwcbxi87r8jtds.streamlit.app/)
 - **Final notebook:** [`notebooks/03_Final_Model.ipynb`](notebooks/03_Final_Model.ipynb)
 - **Ranked list:** [`outputs/ranked_contact_list.csv`](outputs/ranked_contact_list.csv)
-
-The notebook and app code are complete. The app link still needs to be added after deployment.
 
 ## Project files
 
