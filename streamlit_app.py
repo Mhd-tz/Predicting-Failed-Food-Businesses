@@ -27,8 +27,7 @@ DELIVERABLE_COLUMNS = [
     "businesstype", "localarea", "numberofemployees", "risk_score",
 ]
 
-st.set_page_config(page_title="Food business contact list", page_icon="🍽️",
-                   layout="wide")
+st.set_page_config(page_title="Food business contact list", layout="wide")
 
 
 @st.cache_data
@@ -93,8 +92,7 @@ st.info(
     "This is a trial contact list for the 168 businesses with an Issued licence. "
     "The model ranks them using business type, neighbourhood, and employee count. "
     "It has not been tested on which open businesses close later, so a high rank "
-    "does not mean that a business is expected to close.",
-    icon="ℹ️")
+    "does not mean that a business is expected to close.")
 
 st.sidebar.header("Filters")
 bands = st.sidebar.multiselect(

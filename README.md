@@ -10,6 +10,7 @@ licence, ordered by how similar they are to records in the failure group.
 
 ## Submission links
 
+- **Streamlit app:** [link](https://predicting-failed-food-businesses-a2pmx3bnzwcbxi87r8jtds.streamlit.app/)
 - **Final notebook:** [`notebooks/03_Final_Model.ipynb`](notebooks/03_Final_Model.ipynb)
 - **Ranked list:** [`outputs/ranked_contact_list.csv`](outputs/ranked_contact_list.csv)
 
