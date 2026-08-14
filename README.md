@@ -111,5 +111,3 @@ Run the app from the repository root:
 ```bash
 streamlit run streamlit_app.py
 ```
-
-The app fits the same random forest when it starts, so no separate model file is required.
